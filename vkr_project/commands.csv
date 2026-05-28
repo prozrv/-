@@ -1,0 +1,23 @@
+name,code,tx_len,rx_len,description
+spi_cmd_reset,170,1,0,-
+spi_cmd_clear,187,1,0,-
+write_register,19,3,0,Write register
+read_register,20,2,1,Read register
+spi_cmd_write_system_reg,32,1,0,-
+spi_cmd_read_system_reg,33,1,0,-
+spi_cmd_start_one_cycle_sns,49,1,0,-
+spi_cmd_start_one_cycle_tmp,50,1,0,-
+spi_cmd_start_one_cycle_all,51,1,0,-
+spi_cmd_start_acc,64,1,0,-
+spi_cmd_read_acc_out,80,1,4,-
+spi_cmd_read_acc_temp,82,1,6,-
+spi_cmd_read_temp_sensor,84,1,2,-
+spi_cmd_read_out_alg_dat,96,1,4,-
+spi_cmd_flash_wr_mem,128,1,0,-
+spi_cmd_flash_rd_mem,129,1,0,-
+spi_cmd_flash_st_vol_mem,130,1,0,-
+spi_cmd_flash_rc_vol_mem,131,1,0,-
+spi_cmd_ip_flash_all,132,1,0,-
+spi_cmd_flash_to_reg_all,192,1,0,-
+spi_cmd_flash_to_reg_sgn,193,2,0,-
+spi_cmd_flash,194,1,0,-
